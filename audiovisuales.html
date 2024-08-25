@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera página web</title>
+    <meta name="author" content="Lucas Montegrosso">
+    <meta name="description" content="Esta es mi primera página web">
+    <meta name="keywords" content="Tutorial, desarrollo web">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Lucas Montegrosso</h1>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a>
+            <li><a href="Preferencias.html">Preferencias</a></li>
+            <li><a class="avtive" href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="Contacto.html">Contacto</a></li></li>
+          </ul>
+        </nav>
+    </header>
+
+    <h2>Proyecto de página web</h2>
+    <hr>
+
+    <section class="centrado">
+        <div>
+        <h2>Curso gratis de HTML</h2>
+        <iframe class="centrado" width="560" height="315" src="https://www.youtube.com/embed/bNV6iw13Rnk?si=IuNFz7Pf7FCvWGEG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h2>Curso gratis de CSS</h2>
+        <iframe class="centrado"  width="560" height="315" src="https://www.youtube.com/embed/rTtC6Q-71qg?si=WEhuduSPYnkgv8-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h2>Curso gratis de JavaScript</h2>
+        <iframe class="centrado"  width="560" height="315" src="https://www.youtube.com/embed/N8Xt5rP_DUo?si=tCqBI6sCAWAJFNlC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html> 

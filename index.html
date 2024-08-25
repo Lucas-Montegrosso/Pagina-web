@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera página web</title>
+    <meta name="author" content="Lucas Montegrosso">
+    <meta name="description" content="Esta es mi primera página web">
+    <meta name="keywords" content="Tutorial, desarrollo web">
+
+    <style>
+          
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 20%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 20%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+      <h1>Lucas Montegrosso</h1>
+        <nav>
+          <ul>
+            <li><a class="active" href="index.html">Home</a>
+              <li><a href="mis_datos.html">Mis datos</a></li>
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="Contacto.html">Contacto</a></li></li>
+          </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Proyecto de página web</h2>
+    <hr>
+
+    <article class="container">
+        <h3>Sobre mi</h3>
+        <img class="image" src="/assets/1.jpg" alt="Codeando en el camión">
+        <p>Esta foto fue tomada dentro de la planta de Toyota en Zárate, provincia de Buenos Aires, Argentina. Aquí, mientras los operadores de carga estaban en su horario de cena, aproveché el tiempo libre para hacer prácticas y mejorar mis habilidades. Lo bueno de trabajar como chofer de camiones es que puedo utilizar estos momentos libres para seguir capacitándome y aprendiendo cosas nuevas. Actualmente, estoy aprovechando estos ratos para aprender programación, especialmente con HTML y CSS. Estos lenguajes son fundamentales para el desarrollo web y me permitirán tener nuevas oportunidades laborales en el futuro. Estoy muy entusiasmado con la idea de ampliar mis conocimientos en el área de la tecnología y poder aplicarlos en diferentes ámbitos. La programación no solo me ofrece la posibilidad de mejorar profesionalmente, sino también de crear y desarrollar proyectos propios, lo que me resulta muy motivador. Además, aprender algo nuevo siempre es un desafío interesante y gratificante.</p>
+        <img class="image2" src="/assets/31.jpg" alt="Codeando en el camión"><br>
+        <p>La segunda foto fue tomada en Chile, y de fondo se puede ver la majestuosa cordillera de los Andes. En ese momento, estaba haciendo fila para poder ingresar a la aduana y realizar todos los trámites correspondientes. Dado que no había sistema en el predio, me vi obligado a esperar varias horas antes de poder continuar con el proceso. Sin embargo, aproveché ese tiempo de espera para seguir practicando y aprendiendo cosas nuevas. Esos momentos de inactividad forzada son perfectos para dedicarme a mi formación personal y profesional. Siempre llevo conmigo materiales de estudio y herramientas para poder continuar aprendiendo, incluso en situaciones inesperadas. Aprovecho estos tiempos para seguir mejorando mis habilidades en programación, enfocándome en HTML y CSS, lo cual no solo me mantiene productivo durante las largas esperas, sino que también me prepara para futuras oportunidades en el campo de la tecnología y el desarrollo web. Esta rutina de aprendizaje continuo me motiva a enfrentar cada día con entusiasmo y a aprovechar al máximo cada momento.</p>
+        <img class="image" src="/assets/a2.jpg" alt="Codeando en el camión"><br>
+        <p>
+          Y la última foto fue tomada también en Buenos Aires, mientras esperaba mi turno para poder ingresar a cargar el camión. En esta ocasión, estaba utilizando mi tiempo para practicar mis habilidades de programación. Estaba trabajando en la creación de una copia de una página de Starbucks, utilizando HTML y CSS. Me concentré en hacer que la página fuera responsive, asegurándome de que se viera bien y funcionara correctamente en distintos tipos de dispositivos, como computadoras, tablets y smartphones. Esta práctica me ayuda a mejorar mis habilidades en el desarrollo web, especialmente en la adaptación de páginas a diferentes tamaños de pantalla, lo cual es fundamental en el mundo digital actual. Me gusta utilizar estos momentos de espera para avanzar en mis proyectos de programación, ya que me permite estar siempre aprendiendo y creciendo en mi carrera, además de hacer que el tiempo pase más rápido. Cada oportunidad para mejorar es valiosa, y estoy comprometido con aprovechar cada momento libre para seguir avanzando y perfeccionando mis conocimientos en tecnología y diseño web.</p>
+    </article>
+
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html> 
